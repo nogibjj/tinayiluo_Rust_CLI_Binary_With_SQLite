@@ -1,0 +1,13 @@
+[package]
+name = "tina_yi_sqlite"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "^0.11", features = ["blocking"] }
+rusqlite = "^0.29"
+csv = "^1.0"
+assert_cmd = "^2.0"
+predicates = "0.9"
