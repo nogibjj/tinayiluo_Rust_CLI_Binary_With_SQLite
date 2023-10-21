@@ -29,6 +29,10 @@ jobs:
       run: make format
     - name: Lint
       run: make lint
+    - name: Extract
+      run: make extract
+    - name: Transform Load
+      run: make transform_load
     - name: Create 
       run: make create 
     - name: Read
