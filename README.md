@@ -21,7 +21,8 @@ Here is my video demo showing a clear, concise walkthrough and demonstration of 
 
 ### Workflow Overview
 
-- Rust Initiation and Dependencies Installation (Cargo init, Cargo.toml, Cargo build)
+```
+- Rust Initiation and Dependencies Installation (`Cargo init`, `Cargo.toml`, `Cargo build`)
 
 - Github Copilot Translation from Python to Rust
 
@@ -41,11 +42,12 @@ Here is my video demo showing a clear, concise walkthrough and demonstration of 
 
 * [Q] Write and execute SQL queries on the SQLite database to analyze and retrieve insights from the data. The queries can perform CRUD (create, read, update, delete) operations. 
 
-- Logging:  The log_query function appends SQL queries to a log file. By logging the queries into a Markdown file named query_log.md, it facilitates tracking and analysis of executed queries.
+- Logging:  The log_query function appends SQL queries to a log file. By logging the queries into a Markdown file named `query_log.md`, it facilitates tracking and analysis of executed queries.
 
 - GitHub Actions: A workflow file that tests, builds, and lints the Rust code.
 
 - Optimized Rust Binary: Generates an optimized Rust binary as a GitHub Actions artifact that can be downloaded.
+```
 
 ### Preperation
 
@@ -65,15 +67,15 @@ Step 1: Rust Initiation using `cargo init`
 
 initialize a new Rust project by running ‘cargo init` inside the directory, it will set up a new Rust project by:
 
-* Creating a Cargo.toml file, which contains configuration data, dependencies, and other metadata about the Rust project.
+* Creating a `Cargo.toml` file, which contains configuration data, dependencies, and other metadata about the Rust project.
 
-* Creating a src directory with a main.rs file for binary projects or lib.rs for libraries.
+* Creating a `src` directory with a main.rs file for binary projects or lib.rs for libraries.
 
-* Generating a .gitignore file if the directory is not inside an existing git repository. 
+* Generating a `.gitignore` file if the directory is not inside an existing git repository. 
 
 Step 2: Rust Dependencies Installation
 
-In Cargo.toml specify metadatas and dependencies
+In `Cargo.toml` specify metadatas and dependencies
 
 * Project Metadata: It provides metadata about the Rust package, such as its name, version, authors, and edition.
 
@@ -162,6 +164,7 @@ The CI/CD pipeline provides a comprehensive process for building, testing, and m
 Step 6: [log of successful database operations](./query_log.md)
 
 ### Optimized Rust Binary
+
 You can find and download the uploaded artifact by going to actions and clicking on the latest workflow run.
 
 <img width="1075" alt="Screen Shot 2023-10-22 at 10 53 45 PM" src="https://github.com/nogibjj/tinayiluo_Rust_CLI_Binary_With_SQLite/assets/143360909/c0cfb21c-4736-4fca-a012-07e18e499042">
@@ -169,23 +172,21 @@ You can find and download the uploaded artifact by going to actions and clicking
 
 ### Video Demo: showing a clear, concise walkthrough and demonstration of the CLI binary.
 
-1. open codespaces
+- open codespaces and wait for codespaces to be built
 
-2. wait for codespaces to be built
+- build: `cargo build` for dependencies installation
 
-3. build: cargo build for dependencies installation
+- extract: make extract
 
-4. extract: make extract
+- transform and load: make transform_load
 
-5. transform and load: make transform_load
+- query sample: you can use make create, make read, make update, or make delete to see sample CRUD Operations
 
-6. query sample: you can use make create, make read, make update, or make delete to see sample CRUD Operations
+- query your own: cargo run query <insert own query here>
 
-7. query your own: cargo run query <insert own query here>
+- You can find my successful CRUD operations [here](./query_log.md)
 
-8. You can find my successful CRUD operations [here](./query_log.md)
-
-9. You can find and download the uploaded artifact by going to actions and clicking on the latest workflow run.
+- You can find and download the uploaded artifact by going to actions and clicking on the latest workflow run.
 
 ### Make Format, Test, Lint, All Approval Image
 
