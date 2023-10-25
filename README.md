@@ -73,7 +73,7 @@ initialize a new Rust project by running ‘cargo init` inside the directory, it
 
 * Generating a `.gitignore` file if the directory is not inside an existing git repository. 
 
-Step 2: Rust Dependencies Installation
+Step 2: Rust Dependencies Installation using `cargo build`
 
 In `Cargo.toml` specify metadatas and dependencies
 
