@@ -1,8 +1,6 @@
 ## Rust CLI Binary with SQLite
 [![Rust CI/CD Pipeline](https://github.com/nogibjj/tinayiluo_Rust_CLI_Binary_With_SQLite/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/tinayiluo_Rust_CLI_Binary_With_SQLite/actions/workflows/ci.yml)
 
-Individual Project 2: Rust CLI Binary with SQLite
-
 ### Architectural Diagram
 
 ![SQLite Diagram drawio (1)](https://github.com/nogibjj/tinayiluo_sqlite_lab/assets/143360909/6ddfa32e-d164-40fd-9413-8d0e1654bbc1)
