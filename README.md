@@ -34,11 +34,9 @@ Here is my video demo showing a clear, concise walkthrough and demonstration of 
 
 * [E] The extract function downloads data from a specified URL and saves it to a local file.
 
-* [T] The transform_load function reads a CSV dataset and inserts its records into a SQLite database after performing necessary table operations. 
+* [T][L] The transform_load function reads a CSV dataset and inserts its records into a SQLite database after performing necessary table operations. It creates a table named AirlineSafetyDB with specific columns.
 
-* [L] Load the transformed data into a SQLite database table using Python's sqlite3 module.
-
-* [Q] Write and execute SQL queries on the SQLite database to analyze and retrieve insights from the data. The queries can perform CRUD (create, read, update, delete) operations. 
+* [Q] The query function writes and executes SQL queries on the SQLite database to analyze and retrieve insights from the data. The queries can perform CRUD (create, read, update, delete) operations. 
 
 - Logging:  The log_query function appends SQL queries to a log file. By logging the queries into a Markdown file named `query_log.md`, it facilitates tracking and analysis of executed queries.
 
