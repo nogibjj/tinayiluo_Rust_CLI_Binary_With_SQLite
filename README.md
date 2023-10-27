@@ -1,6 +1,8 @@
 ## Rust CLI Binary with SQLite
 [![Rust CI/CD Pipeline](https://github.com/nogibjj/tinayiluo_Rust_CLI_Binary_With_SQLite/actions/workflows/ci.yml/badge.svg)](https://github.com/nogibjj/tinayiluo_Rust_CLI_Binary_With_SQLite/actions/workflows/ci.yml)
 
+[Video Demo](https://youtu.be/vwk7wgY9qcU)
+
 ### Architectural Diagram
 
 ![SQLite Diagram drawio (1)](https://github.com/nogibjj/tinayiluo_sqlite_lab/assets/143360909/6ddfa32e-d164-40fd-9413-8d0e1654bbc1)
@@ -15,7 +17,7 @@ The operational workflow includes running a Makefile to perform tasks such as in
 
 To cap it off, the project produces an optimized Rust binary, which is available as a GitHub Actions artifact, ready for download.
 
-Here is my video demo showing a clear, concise walkthrough and demonstration of my CLI binary:  [link]
+Here is my [video demo](https://youtu.be/vwk7wgY9qcU) showing a clear, concise walkthrough and demonstration of my CLI binary.
 
 ### Workflow Overview
 
